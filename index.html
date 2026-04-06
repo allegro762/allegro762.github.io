@@ -2,11 +2,34 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    textarea {
+      width: 100%;
+      height: 300px;
+    }
+    
+    textarea-container {
+      display: flex;
+      gap: 10px;
+    }
+    
+    textarea {
+      flex: 1;
+    }
+</style>
 </head>
 <body>
 
-<textarea id="a"></textarea>
-<textarea id="b"></textarea>
+<div class="textarea-container">
+  <textarea id="a"></textarea>
+  <textarea id="b"></textarea>
+</div>
 <button onclick="run()">diff</button>
 
 <pre id="out"></pre>
