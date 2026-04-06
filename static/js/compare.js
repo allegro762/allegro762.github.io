@@ -11,5 +11,5 @@ function run() {
   const a = document.getElementById('a').value;
   const b = document.getElementById('b').value;
   const result = diffTags(a, b);
-  document.getElementById('out').textContent = result.join(' ');
+  document.getElementById('out').textContent = result.join(', \n');
 }
