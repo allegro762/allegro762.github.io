@@ -21,8 +21,10 @@ function normalize(str) {
 }
 
 function matchTag(tag, keyword) {
+  const tokens = tag.split(/[\s_]+/); // 공백 + _ 둘 다 분리
   return (
     tag === keyword ||
+    tokens.includes(keyword) ||   // ← 핵심
     tag.endsWith("_" + keyword) ||
     tag.startsWith(keyword + "_")
   );
