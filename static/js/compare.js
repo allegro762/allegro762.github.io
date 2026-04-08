@@ -4,7 +4,7 @@ const categories = {
   "신체부위": ["eyes", "eye", "face", "arm", "leg", "breast", "breasts", "legs"],
   "헤어": ["hair", "bangs"],
   "의류": ["shirt", "skirt", "pants", "jacket", "thighhighs", "sleeves", "sweater", "turtleneck"],
-  "이미지 후처리": ["lighting", "anime style", "detailed", "quality", "score"],
+  "이미지 후처리": ["lighting", "anime style", "detailed", "quality", "score_"],
   "디테일": ["striped", "leather"],
   "악세사리": ["bow"],
   "공간구성": ["interior", "livingroom", "bed", "tiles", "tile_floor", "indoors"],
