@@ -1,8 +1,12 @@
 console.log("JS loaded");
 
 const categories = {
-  "신체부위": ["eye", "hair", "face", "arm", "leg"],
-  "의류": ["shirt", "skirt", "pants", "jacket"],
+  "신체부위": ["eyes", "eye", "hair", "face", "arm", "leg", "breast", "breasts", "legs"],
+  "헤어": ["hair"],
+  "의류": ["shirt", "skirt", "pants", "jacket", "thighhighs", "sleeves", "sweater", ],
+  "이미지 후처리": ["lighting", "anime style", "detailed", "quality", "score"],
+  "디테일": ["striped", "leather", 
+  "악세사리": ["bow", ],
   "기타": []
 };
 
