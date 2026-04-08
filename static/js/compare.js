@@ -26,7 +26,8 @@ function matchTag(tag, keyword) {
     tag === keyword ||
     tokens.includes(keyword) ||   // ← 핵심
     tag.endsWith("_" + keyword) ||
-    tag.startsWith(keyword + "_")
+    tag.startsWith(keyword + "_") || 
+    tokens.some(t => t.endsWith(keyword))
   );
 }
 
