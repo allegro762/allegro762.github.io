@@ -7,7 +7,8 @@ const categories = {
   "이미지 후처리": ["lighting", "anime style", "detailed", "quality", "score"],
   "디테일": ["striped", "leather"],
   "악세사리": ["bow"],
-  "공간구성": ["interior", "livingroom", "on the bed", "bed", "tiles", "tile_floor", "indoors"],
+  "공간구성": ["interior", "livingroom", "bed", "tiles", "tile_floor", "indoors"],
+  "남성": ["male", "man"],
   "기타": []
 };
 
