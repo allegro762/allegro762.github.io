@@ -52,11 +52,7 @@ function renderCategorized(data) {
 
     const content = document.createElement('div');
     content.className = 'category-content';
-    content.textContent = data[key].forEach(tag => {
-        const item = document.createElement('div');
-        item.textContent = tag + ','; // 쉼표 유지
-        content.appendChild(item);
-        });
+    content.textContent = data[key].map(x => x + ',').join('\n');
 
     box.appendChild(title);
     box.appendChild(content);
