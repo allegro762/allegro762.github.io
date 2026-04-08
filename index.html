@@ -27,14 +27,20 @@
     .result-container {
       display: flex;
       flex-wrap: wrap;
+      flex-direction: column;
       gap: 10px;
       width: 80%;
     }    
     .category-box {
+      display: flex;      
+      flex-direction: column;
       border: 1px solid #aaa;
       padding: 10px;
       min-width: 120px;
     }    
+    .category-box div {
+    white-space: pre-line;
+    }
     .category-title {
       font-weight: bold;
       margin-bottom: 5px;
