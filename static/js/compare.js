@@ -51,7 +51,7 @@ function renderCategorized(data) {
     title.textContent = key;
 
     const content = document.createElement('div');
-    content.textContent = data[key].join(', ');
+    content.textContent = data[key].map(x => x + ',').join('\n');
 
     box.appendChild(title);
     box.appendChild(content);
