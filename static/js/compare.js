@@ -12,6 +12,12 @@ const categories = {
   "기타": []
 };
 
+function matchTag(tag, keyword) {
+  return (
+    tag.endsWith(keyword) ||        // eye, hair
+    tag.startsWith(keyword + "_")   // score_9
+  );
+}
 function categorize(tags) {
   const result = {};
 
@@ -25,7 +31,7 @@ function categorize(tags) {
 
     for (const key in categories) {
       for (const keyword of categories[key]) {
-        if (tag.endsWith(keyword)) {
+        if (matchTag(tag, keyword)) {
           result[key].push(tag);
           found = true;
           break;
