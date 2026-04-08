@@ -28,6 +28,29 @@ function categorize(tags) {
   return result;
 }
 
+function renderCategorized(data) {
+  const container = document.getElementById('out');
+  container.innerHTML = '';
+
+  for (const key in data) {
+    if (data[key].length === 0) continue;
+
+    const box = document.createElement('div');
+    box.className = 'category-box';
+
+    const title = document.createElement('div');
+    title.className = 'category-title';
+    title.textContent = key;
+
+    const content = document.createElement('div');
+    content.textContent = data[key].join(', ');
+
+    box.appendChild(title);
+    box.appendChild(content);
+    container.appendChild(box);
+  }
+}
+
 function diffTags(a, b) {
   const setA = new Set(a.split(',').map(x => x.trim()));
   const setB = new Set(b.split(',').map(x => x.trim()));
@@ -35,10 +58,9 @@ function diffTags(a, b) {
 }
 
 function run() {
-  console.log("clicked");
   const a = document.getElementById('a').value;
   const b = document.getElementById('b').value;
-  const result = diffTags(a, b);
-  document.getElementById('out').textContent =
-  result.map(x => x + ',').join('\n');
+  const diff = diffTags(a, b);
+  const categorized = categorize(diff);
+  renderCategorized(categorized);
 }
