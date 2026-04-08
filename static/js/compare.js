@@ -7,7 +7,7 @@ const categories = {
   "이미지 후처리": ["lighting", "anime style", "detailed", "quality", "score"],
   "디테일": ["striped", "leather"],
   "악세사리": ["bow"],
-  "기타": [],
+  "기타": []
 };
 
 function categorize(tags) {
