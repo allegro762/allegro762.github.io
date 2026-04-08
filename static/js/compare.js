@@ -79,6 +79,8 @@ function run() {
   const a = document.getElementById('a').value;
   const b = document.getElementById('b').value;
   const diff = diffTags(a, b);
+  console.log("diff:", diff);
   const categorized = categorize(diff);
+  console.log("categorized:", categorized);
   renderCategorized(categorized);
 }
