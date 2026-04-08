@@ -8,23 +8,31 @@ const categories = {
 
 function categorize(tags) {
   const result = {};
-  // 초기화
+
   for (const key in categories) {
     result[key] = [];
   }
+  result["기타"] = [];
+
   tags.forEach(tag => {
     let found = false;
+
     for (const key in categories) {
-      if (categories[key].includes(tag)) {
-        result[key].push(tag);
-        found = true;
-        break;
+      for (const keyword of categories[key]) {
+        if (tag.endsWith(keyword)) {
+          result[key].push(tag);
+          found = true;
+          break;
+        }
       }
+      if (found) break;
     }
+
     if (!found) {
       result["기타"].push(tag);
     }
   });
+
   return result;
 }
 
