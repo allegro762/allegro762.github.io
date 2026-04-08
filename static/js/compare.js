@@ -9,6 +9,7 @@ const categories = {
   "악세사리": ["bow"],
   "공간구성": ["interior", "livingroom", "bed", "tiles", "tile_floor", "indoors"],
   "남성": ["male", "man"],
+  "중복키워드": [],
   "기타": []
 };
 
@@ -32,21 +33,27 @@ function categorize(tags) {
   for (const key in categories) {
     result[key] = [];
   }
-  result["기타"] = [];
   tags.forEach(tag => {
-    let found = false;
+    const matchedCategories = [];
+    // 1. 어떤 카테고리에 걸리는지 전부 수집
     for (const key in categories) {
+      if (key === "중복키워드" || key === "기타") continue;
+
       for (const keyword of categories[key]) {
         if (matchTag(tag, keyword)) {
-          result[key].push(tag);
-          found = true;
+          matchedCategories.push(key);
           break;
         }
       }
-      if (found) break;
     }
-    if (!found) {
+    // 2. 분기 처리
+    if (matchedCategories.length === 0) {
       result["기타"].push(tag);
+    } else if (matchedCategories.length === 1) {
+      result[matchedCategories[0]].push(tag);
+    } else {
+      result["중복키워드"].push(tag);  // ← 핵심
+      console.log(tag, "→ 중복:", matchedCategories);
     }
   });
   return result;
