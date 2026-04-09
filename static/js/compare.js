@@ -14,7 +14,7 @@ const categories = {
   "얼굴표현": ["angry", "blush", "drooling", "teeth", "mouth"],
   "중복키워드": [],
   "제외": ["artist_name", "text", "watermark", "censored", "string", "futanari", "Mosaics", "bar_censor", "ugly", "older_lady", "middle-aged_woman", "worst", "low quality", "lowres", "signature", "username", "logo", "bad hands", "mutated hands", "A man's face"],
-  "관점과 시점": ["from_side", "solo_focus", "out_of_frame"],
+  "관점과시점": ["from_side", "solo_focus", "out_of_frame"],
   "기타": []
 };
 
