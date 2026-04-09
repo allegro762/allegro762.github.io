@@ -9,7 +9,7 @@ const categories = {
   "악세사리": ["bow", "cuffs", "tattoo", "eyewear", "glasses"],
   "공간구성": ["interior", "livingroom", "bed", "tiles", "tile_floor", "indoors", "sky", "cloud", "public_indecency", "background"],
   "여성": ["arched_back", "pussy", "cum_in", "cum_on", "off_shoulder", "eyelashes", "saliva", "oral", "fellatio", "long_fingernails", "mascara"],
-  "남성": ["male", "man", "faceless", "exhibitionism", "penis", "testicles", "hand_on_another\'s_head"],
+  "남성": ["male", "man", "faceless", "exhibitionism", "penis", "testicles", "hand_on_another"],
   "연출": ["rape", "sex", "from_behind", "bound_wrists", "public_nudity", "slave", "humiliation", "chained", "chain_leash", "doggystyle", "standing", "sitting", "nude", "kneeling"],
   "얼굴표현": ["angry", "blush", "drooling", "teeth", "mouth"],
   "중복키워드": [],
