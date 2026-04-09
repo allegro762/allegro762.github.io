@@ -1,15 +1,19 @@
 console.log("JS loaded");
 
 const categories = {
-  "신체부위": ["eyes", "eye", "face", "arm", "leg", "breast", "breasts", "legs"],
+  "신체부위": ["eyes", "eye", "face", "arm", "leg", "breast", "breasts", "legs", "ass", , ],
   "헤어": ["hair", "bangs"],
   "의류": ["shirt", "skirt", "pants", "jacket", "thighhighs", "sleeves", "sweater", "turtleneck"],
   "이미지 후처리": ["lighting", "anime style", "detailed", "quality", "score"],
   "디테일": [],
-  "악세사리": ["bow"],
-  "공간구성": ["interior", "livingroom", "bed", "tiles", "tile_floor", "indoors"],
-  "남성": ["male", "man"],
+  "악세사리": ["bow", "cuffs", ],
+  "공간구성": ["interior", "livingroom", "bed", "tiles", "tile_floor", "indoors", "sky", "cloud", "public_indecency", ],
+  "여성": ["arched_back", "pussy", "cum_in", "cum_on", ],
+  "남성": ["male", "man", "faceless", "exhibitionism", "penis", ],
+  "연출": ["rape", "sex", "from_behind", "bound_wrists", "public_nudity", "slave", "humiliation", "chained", "chain_leash", "doggystyle", ],
+  "얼굴표현": ["angry", "blush", "drooling", "teeth"],       
   "중복키워드": [],
+  "제외": ["artist_name", "text", "watermark", "censored", "string", "futanari", "Mosaics", "bar_censor", "ugly", "older_lady", "middle-aged_woman", "worst", "low quality", "lowres", "signature", "username", "logo", "bad hands", "mutated hands", "A man's face"],
   "기타": []
 };
 
