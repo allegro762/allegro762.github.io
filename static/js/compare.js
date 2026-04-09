@@ -19,7 +19,7 @@ const categories = {
 };
 
 function normalize(str) {
-  return streyelashes
+  return str
     .split(',')
     .map(x => x.trim().toLowerCase())
     .filter(x => x.length > 0);
