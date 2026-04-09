@@ -11,7 +11,7 @@ const categories = {
   "여성": ["arched_back", "pussy", "cum_in", "cum_on"],
   "남성": ["male", "man", "faceless", "exhibitionism", "penis"],
   "연출": ["rape", "sex", "from_behind", "bound_wrists", "public_nudity", "slave", "humiliation", "chained", "chain_leash", "doggystyle", "standing"],
-  "얼굴표현": ["angry", "blush", "drooling", "teeth", "mouth"],       
+  "얼굴표현": ["angry", "blush", "drooling", "teeth", "mouth"],
   "중복키워드": [],
   "제외": ["artist_name", "text", "watermark", "censored", "string", "futanari", "Mosaics", "bar_censor", "ugly", "older_lady", "middle-aged_woman", "worst", "low quality", "lowres", "signature", "username", "logo", "bad hands", "mutated hands", "A man's face"],
   "기타": []
