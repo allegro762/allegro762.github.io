@@ -1,24 +1,25 @@
 console.log("JS loaded");
 
 const categories = {
-  "신체부위": ["eyes", "eye", "face", "arm", "leg", "breast", "breasts", "legs", "ass", "nipples", "nipple"],
+  "신체부위": ["eyes", "eye", "face", "arm", "arms", "leg", "breast", "breasts", "legs", "ass", "nipples", "nipple", "bare_shoulders", "barefoot", "lips", "nose"],
   "헤어": ["hair", "bangs"],
-  "의류": ["shirt", "skirt", "pants", "jacket", "thighhighs", "sleeves", "sweater", "turtleneck"],
-  "이미지 후처리": ["lighting", "anime style", "detailed", "quality", "score"],
-  "디테일": [],
-  "악세사리": ["bow", "cuffs"],
-  "공간구성": ["interior", "livingroom", "bed", "tiles", "tile_floor", "indoors", "sky", "cloud", "public_indecency"],
-  "여성": ["arched_back", "pussy", "cum_in", "cum_on"],
-  "남성": ["male", "man", "faceless", "exhibitionism", "penis"],
-  "연출": ["rape", "sex", "from_behind", "bound_wrists", "public_nudity", "slave", "humiliation", "chained", "chain_leash", "doggystyle", "standing"],
+  "의류": ["shirt", "skirt", "pants", "jacket", "thighhighs", "sleeves", "sweater", "turtleneck", "underwear", "panties", "bra", "denim", "tank_top", "jeans"],
+  "이미지 후처리": ["lighting", "anime style", "detailed", "quality", "score", "light_particles", "realistic"],
+  "디테일": ["shiny_skin", "saliva_trail"],
+  "악세사리": ["bow", "cuffs", "tattoo", "eyewear", "glasses", ],
+  "공간구성": ["interior", "livingroom", "bed", "tiles", "tile_floor", "indoors", "sky", "cloud", "public_indecency", "background"],
+  "여성": ["arched_back", "pussy", "cum_in", "cum_on", "off_shoulder", "eyelashes", "saliva", "oral", "fellatio", "long_fingernails", "mascara"],
+  "남성": ["male", "man", "faceless", "exhibitionism", "penis", "testicles", "hand_on_another's_head"],
+  "연출": ["rape", "sex", "from_behind", "bound_wrists", "public_nudity", "slave", "humiliation", "chained", "chain_leash", "doggystyle", "standing", "sitting", "nude", "kneeling"],
   "얼굴표현": ["angry", "blush", "drooling", "teeth", "mouth"],
   "중복키워드": [],
   "제외": ["artist_name", "text", "watermark", "censored", "string", "futanari", "Mosaics", "bar_censor", "ugly", "older_lady", "middle-aged_woman", "worst", "low quality", "lowres", "signature", "username", "logo", "bad hands", "mutated hands", "A man's face"],
+  "관점과 시점": ["from_side", "solo_focus", "out_of_frame"],
   "기타": []
 };
 
 function normalize(str) {
-  return str
+  return streyelashes
     .split(',')
     .map(x => x.trim().toLowerCase())
     .filter(x => x.length > 0);
