@@ -6,7 +6,7 @@ const categories = {
   "의류": ["shirt", "skirt", "pants", "jacket", "thighhighs", "sleeves", "sweater", "turtleneck", "underwear", "panties", "bra", "denim", "tank_top", "jeans"],
   "이미지 후처리": ["lighting", "anime style", "detailed", "quality", "score", "light_particles", "realistic"],
   "디테일": ["shiny_skin", "saliva_trail"],
-  "악세사리": ["bow", "cuffs", "tattoo", "eyewear", "glasses", ],
+  "악세사리": ["bow", "cuffs", "tattoo", "eyewear", "glasses"],
   "공간구성": ["interior", "livingroom", "bed", "tiles", "tile_floor", "indoors", "sky", "cloud", "public_indecency", "background"],
   "여성": ["arched_back", "pussy", "cum_in", "cum_on", "off_shoulder", "eyelashes", "saliva", "oral", "fellatio", "long_fingernails", "mascara"],
   "남성": ["male", "man", "faceless", "exhibitionism", "penis", "testicles", "hand_on_another's_head"],
