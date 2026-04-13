@@ -2,20 +2,21 @@ console.log("JS loaded");
 
 const categories = {
   "신체부위": ["eyes", "eye", "face", "arm", "arms", "leg", "breast", "breasts", "legs", "ass", "nipples", "nipple", "bare_shoulders", "barefoot", "lips", "nose", "forehead"],
-  "헤어": ["hair", "bangs", "ponytail"],
+  "헤어": ["hair", "bangs", "ponytail", "twintails", "twin_drills"],
   "의류": ["shirt", "skirt", "pants", "jacket", "thighhighs", "sleeves", "sweater", "turtleneck", "underwear", "panties", "bra", "denim", "tank_top", "jeans", "gloves"],
   "이미지 후처리": ["lighting", "anime style", "detailed", "quality", "score", "light_particles", "realistic"],
-  "디테일": ["shiny_skin", "saliva_trail"],
+  "디테일": ["shiny_skin", "saliva_trail", "tan", "tanlines", "one-piece_tan", "bikini_tan"],
   "악세사리": ["bow", "cuffs", "tattoo", "eyewear", "glasses", "ribbon", "piercing", "earrings"],
   "공간구성": ["interior", "livingroom", "bed", "tiles", "tile_floor", "indoors", "sky", "cloud", "public_indecency", "background"],
   "여성": ["arched_back", "pussy", "cum_in", "cum_on", "off_shoulder", "eyelashes", "saliva", "oral", "fellatio", "long_fingernails", "mascara"],
-  "남성": ["male", "man", "faceless", "exhibitionism", "penis", "testicles", "hand_on_another's_head"],
-  "연출": ["rape", "sex", "from_behind", "bound_wrists", "public_nudity", "slave", "humiliation", "chained", "chain_leash", "doggystyle", "standing", "sitting", "nude", "kneeling"],
+  "남성": ["male", "man", "faceless", "exhibitionism", "penis", "testicles", "hand_on_another's_head", "veins"],
+  "연출": ["rape", "sex", "from_behind", "bound_wrists", "public_nudity", "slave", "humiliation", "chained", "chain_leash", "doggystyle", "standing", "sitting", "nude", "kneeling", "groping", "sheet_grab", "facing_away"],
   "얼굴표현": ["angry", "blush", "drooling", "teeth", "mouth"],
   "중복키워드": [],
   "제외": ["artist_name", "text", "watermark", "censored", "string", "futanari", "Mosaics", "bar_censor", "ugly", "older_lady", "middle-aged_woman", "worst", "low quality", "lowres", "signature", "username", "logo", "bad hands", "mutated hands", "A man's face"],
   "관점과시점": ["from_side", "solo_focus", "out_of_frame"],
-  "기타": []
+  "미사용": ["hetero"],
+  "기타": []  
 };
 
 function normalize(str) {
