@@ -1,15 +1,15 @@
 console.log("JS loaded");
 
 const categories = {
-  "신체부위": ["eyes", "eye", "face", "arm", "arms", "leg", "breast", "breasts", "legs", "ass", "nipples", "nipple", "bare_shoulders", "barefoot", "lips", "nose", "forehead", "tongue", "anus", "clitoris", "erection", "thighs", "collarbone"],
+  "신체부위": ["eyes", "eye", "face", "arm", "arms", "leg", "breast", "breasts", "legs", "ass", "nipples", "nipple", "bare_shoulders", "barefoot", "lips", "nose", "forehead", "tongue", "anus", "clitoris", "thighs", "collarbone"],
   "헤어": ["hair", "bangs", "ponytail", "twintails", "twin_drills", "quad_tails"],
   "의류": ["shirt", "skirt", "pants", "jacket", "thighhighs", "sleeves", "sweater", "turtleneck", "underwear", "panties", "bra", "denim", "tank_top", "jeans", "gloves", "frills", "shoes", "dress", "footwear", "high_heels", "lace_trim", "mary_janes", "lolita", "kimono", "sash", "japanese_clothes"],
   "이미지 후처리": ["lighting", "anime style", "detailed", "quality", "score", "light_particles", "realistic"],
   "디테일": ["shiny_skin", "saliva_trail", "tan", "tanlines", "one-piece_tan", "bikini_tan", "cum"],
   "악세사리": ["bow", "cuffs", "tattoo", "eyewear", "glasses", "ribbon", "piercing", "earrings", "choker", "bracelet"],
   "공간구성": ["interior", "livingroom", "bed", "tiles", "tile_floor", "indoors", "sky", "cloud", "public_indecency", "background", "pillow"],
-  "여성": ["arched_back", "pussy", "cum_in", "cum_on", "off_shoulder", "eyelashes", "saliva", "oral", "fellatio", "long_fingernails", "mascara", "two_side_up", "stomach", "open_clothes", "kneepits"],
-  "남성": ["male", "man", "faceless", "exhibitionism", "penis", "testicles", "hand_on_another's_head", "veins", "cumdrip"],
+  "여성": ["arched_back", "pussy", "cum_in", "cum_on", "off_shoulder", "eyelashes", "saliva", "oral", "fellatio", "long_fingernails", "mascara", "two_side_up", "stomach", "open_clothes", "kneepits", "after_vaginal"],
+  "남성": ["male", "man", "faceless", "exhibitionism", "penis", "testicles", "hand_on_another's_head", "veins", "cumdrip", "ejaculation", "erection"],
   "연출": ["rape", "sex", "from_behind", "bound_wrists", "public_nudity", "slave", "humiliation", "chained", "chain_leash", "doggystyle", "standing", "sitting", "nude", "kneeling", "groping", "sheet_grab", "facing_away", ],
   "얼굴표현": ["angry", "blush", "drooling", "teeth", "mouth"],
   "중복키워드": [],
