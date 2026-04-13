@@ -1,12 +1,12 @@
 console.log("JS loaded");
 
 const categories = {
-  "신체부위": ["eyes", "eye", "face", "arm", "arms", "leg", "breast", "breasts", "legs", "ass", "nipples", "nipple", "bare_shoulders", "barefoot", "lips", "nose"],
-  "헤어": ["hair", "bangs"],
-  "의류": ["shirt", "skirt", "pants", "jacket", "thighhighs", "sleeves", "sweater", "turtleneck", "underwear", "panties", "bra", "denim", "tank_top", "jeans"],
+  "신체부위": ["eyes", "eye", "face", "arm", "arms", "leg", "breast", "breasts", "legs", "ass", "nipples", "nipple", "bare_shoulders", "barefoot", "lips", "nose", "forehead"],
+  "헤어": ["hair", "bangs", "ponytail"],
+  "의류": ["shirt", "skirt", "pants", "jacket", "thighhighs", "sleeves", "sweater", "turtleneck", "underwear", "panties", "bra", "denim", "tank_top", "jeans", "gloves"],
   "이미지 후처리": ["lighting", "anime style", "detailed", "quality", "score", "light_particles", "realistic"],
   "디테일": ["shiny_skin", "saliva_trail"],
-  "악세사리": ["bow", "cuffs", "tattoo", "eyewear", "glasses"],
+  "악세사리": ["bow", "cuffs", "tattoo", "eyewear", "glasses", "ribbon", "piercing", "earrings"],
   "공간구성": ["interior", "livingroom", "bed", "tiles", "tile_floor", "indoors", "sky", "cloud", "public_indecency", "background"],
   "여성": ["arched_back", "pussy", "cum_in", "cum_on", "off_shoulder", "eyelashes", "saliva", "oral", "fellatio", "long_fingernails", "mascara"],
   "남성": ["male", "man", "faceless", "exhibitionism", "penis", "testicles", "hand_on_another's_head"],
