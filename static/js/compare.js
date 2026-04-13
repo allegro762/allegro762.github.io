@@ -10,7 +10,7 @@ const categories = {
   "공간구성": ["interior", "livingroom", "bed", "tiles", "tile_floor", "indoors", "sky", "cloud", "public_indecency", "background", "pillow"],
   "여성": ["arched_back", "pussy", "cum_in", "cum_on", "off_shoulder", "eyelashes", "saliva", "oral", "fellatio", "long_fingernails", "mascara", "two_side_up", "stomach", "open_clothes", "kneepits", "after_vaginal"],
   "남성": ["male", "man", "faceless", "exhibitionism", "penis", "testicles", "hand_on_another's_head", "veins", "cumdrip", "ejaculation", "erection"],
-  "연출": ["rape", "sex", "from_behind", "bound_wrists", "public_nudity", "slave", "humiliation", "chained", "chain_leash", "doggystyle", "standing", "sitting", "nude", "kneeling", "groping", "sheet_grab", "facing_away", ],
+  "연출": ["rape", "sex", "from_behind", "bound_wrists", "public_nudity", "slave", "humiliation", "chained", "chain_leash", "doggystyle", "standing", "sitting", "nude", "kneeling", "groping", "sheet_grab", "facing_away", "lying"],
   "얼굴표현": ["angry", "blush", "drooling", "teeth", "mouth"],
   "중복키워드": [],
   "제외": ["artist_name", "text", "watermark", "censored", "string", "futanari", "Mosaics", "bar_censor", "ugly", "older_lady", "middle-aged_woman", "worst", "low quality", "lowres", "signature", "username", "logo", "bad hands", "mutated hands", "A man's face"],
