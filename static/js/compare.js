@@ -8,7 +8,7 @@ const categories = {
   "디테일": ["shiny_skin", "saliva_trail", "tan", "tanlines", "one-piece_tan", "bikini_tan", "cum"],
   "악세사리": ["bow", "cuffs", "tattoo", "eyewear", "glasses", "ribbon", "piercing", "earrings", "choker", "bracelet"],
   "공간구성": ["interior", "livingroom", "bed", "tiles", "tile_floor", "indoors", "sky", "cloud", "public_indecency", "background", "pillow"],
-  "여성": ["arched_back", "pussy", "cum_in", "cum_on", "off_shoulder", "eyelashes", "saliva", "oral", "fellatio", "long_fingernails", "mascara", "two_side_up", "stomach", "open_clothes", "kneepits", "after_vaginal"],
+  "여성": ["arched_back", "pussy", "cum_in", "cum_on", "off_shoulder", "eyelashes", "saliva", "oral", "fellatio", "long_fingernails", "mascara", "two_side_up", "stomach", "open_clothes", "kneepits", "after_vaginal", "playing_with_own_hair", "holding_hair", "hair_behind_ear", "adjusting_hair", "hand_in_own_hair"],
   "남성": ["male", "man", "faceless", "exhibitionism", "penis", "testicles", "hand_on_another's_head", "veins", "cumdrip", "ejaculation", "erection"],
   "연출": ["rape", "sex", "from_behind", "bound_wrists", "public_nudity", "slave", "humiliation", "chained", "chain_leash", "doggystyle", "standing", "sitting", "nude", "kneeling", "groping", "sheet_grab", "facing_away", "lying"],
   "얼굴표현": ["angry", "blush", "drooling", "teeth", "mouth"],
