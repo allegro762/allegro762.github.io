@@ -5,7 +5,7 @@ const categories = {
   "헤어": ["hair", "bangs", "ponytail", "twintails", "twin_drills", "quad_tails", "sidelocks"],
   "의류": ["shirt", "skirt", "pants", "jacket", "thighhighs", "sleeves", "sweater", "turtleneck", "underwear", "panties", "bra", "denim", "tank_top", "jeans", "gloves", "frills", "shoes", "dress", "footwear", "high_heels", "lace_trim", "mary_janes", "lolita", "kimono", "sash", "japanese_clothes", "crop_top", "casual", "crop_top_overhang", "single_bare_shoulder"],
   "이미지 후처리": ["lighting", "anime style", "detailed", "quality", "score", "light_particles", "realistic"],
-  "디테일": ["shiny_skin", "saliva_trail", "tan", "tanlines", "one-piece_tan", "bikini_tan", "cum", "nails", "chain", "clothes_writing", "cuffs"],
+  "디테일": ["shiny_skin", "saliva_trail", "tan", "tanlines", "one-piece_tan", "bikini_tan", "cum", "nails", "chain", "clothes_writing", "cuffs", "holding"],
   "악세사리": ["bow", "tattoo", "eyewear", "glasses", "ribbon", "piercing", "earrings", "choker", "bracelet", "hairbad", "jewelry", "necklace", "bangle", "chain_necklace"],
   "공간구성": ["interior", "livingroom", "bed", "tiles", "tile_floor", "indoors", "sky", "cloud", "public_indecency", "background", "pillow", "lamp", "bedroom", "room", "outdoors", "day", "water", "ocean", "beach", "sunlight", "sunset", "railing", "horizon", "waves", "against_railing"],
   "여성": ["arched_back", "pussy", "cum_in", "cum_on", "off_shoulder", "eyelashes", "saliva", "oral", "fellatio", "long_fingernails", "mascara", "two_side_up", "stomach", "open_clothes", "kneepits", "after_vaginal", "playing_with_own_hair", "holding_hair", "hair_behind_ear", "adjusting_hair", "hand_in_own_hair"],
